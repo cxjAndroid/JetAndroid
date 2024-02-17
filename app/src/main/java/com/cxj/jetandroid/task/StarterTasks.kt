@@ -6,6 +6,7 @@ package com.cxj.jetandroid.task
 import android.app.Application
 import com.cxj.jetandroid.BuildConfig
 import com.cxj.jetandroid.utils.AppHelper
+import com.cxj.lib_start.task.Task
 import com.hjq.toast.Toaster
 import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger

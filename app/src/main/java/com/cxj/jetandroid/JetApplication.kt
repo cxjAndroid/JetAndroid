@@ -6,10 +6,10 @@ package com.cxj.jetandroid
 import android.app.Application
 import android.content.Context
 import androidx.multidex.MultiDex
-import com.cxj.jetandroid.dispatcher.TaskDispatcher
 import com.cxj.jetandroid.task.InitHelperTask
 import com.cxj.jetandroid.task.InitLogTask
 import com.cxj.jetandroid.task.InitToastTask
+import com.cxj.lib_start.dispatcher.TaskDispatcher
 
 class JetApplication:Application() {
 
