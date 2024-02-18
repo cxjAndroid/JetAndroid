@@ -37,7 +37,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".webview.WebViewActivity"
+        <activity android:name="com.cxj.lib_base.webview.WebViewActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             />

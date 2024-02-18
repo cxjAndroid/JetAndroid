@@ -5,6 +5,9 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="lib_network">
+        <State />
+      </entry>
       <entry key="lib_starter">
         <State />
       </entry>

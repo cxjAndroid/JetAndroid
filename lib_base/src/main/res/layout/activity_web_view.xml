@@ -11,7 +11,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:rightIcon="@drawable/ic_collect_normal_new"/>
 
-    <com.cxj.jetandroid.base.BaseWebView
+    <com.cxj.lib_base.base.BaseWebView
             android:id="@+id/web_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"

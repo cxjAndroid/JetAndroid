@@ -24,10 +24,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
-import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -37,10 +33,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.cxj.jetandroid.R
-import com.cxj.jetandroid.base.BaseComposeFragment
-import com.cxj.jetandroid.model.SystemInfo
-import com.cxj.jetandroid.model.SystemSecondList
+import com.cxj.lib_base.base.BaseComposeFragment
 import com.cxj.jetandroid.viewmodel.ComposeViewModel
+import com.cxj.lib_common.model.SystemInfo
+import com.cxj.lib_common.model.SystemSecondList
 
 class SystemFragment : BaseComposeFragment<ComposeViewModel>() {
 

@@ -6,7 +6,7 @@ package com.cxj.jetandroid
 import android.os.Bundle
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.cxj.jetandroid.base.BaseMvvmActivity
+import com.cxj.lib_base.base.BaseMvvmActivity
 import com.cxj.jetandroid.databinding.ActivityMainBinding
 import com.cxj.jetandroid.viewmodel.HomeFragmentViewModel
 

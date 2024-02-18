@@ -5,8 +5,9 @@ package com.cxj.jetandroid.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
-import com.cxj.jetandroid.model.TabSubDataList
 import com.cxj.jetandroid.repository.TabFragmentRepository
+import com.cxj.lib_common.model.TabSubDataList
+import com.cxj.lib_network.base.BaseViewModel
 
 class TabFragmentViewModel : BaseViewModel() {
     private val tabFragmentRepository = TabFragmentRepository()

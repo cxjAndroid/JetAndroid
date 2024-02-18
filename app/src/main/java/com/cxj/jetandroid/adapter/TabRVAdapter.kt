@@ -6,15 +6,15 @@ package com.cxj.jetandroid.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.cxj.jetandroid.base.BaseBindingRVAdapter
-import com.cxj.jetandroid.base.BaseBindingViewHolder
 import com.cxj.jetandroid.databinding.ItemTabRecyclerViewBinding
-import com.cxj.jetandroid.model.TabSubInfo
-import com.cxj.jetandroid.utils.ViewUtils
-import com.cxj.jetandroid.utils.dpToPx
-import com.cxj.jetandroid.utils.onClick
-import com.cxj.jetandroid.utils.setUrl
-import com.cxj.jetandroid.webview.WebViewActivity
+import com.cxj.lib_base.webview.WebViewActivity
+import com.cxj.lib_base.base.BaseBindingRVAdapter
+import com.cxj.lib_base.base.BaseBindingViewHolder
+import com.cxj.lib_base.utils.ViewUtils
+import com.cxj.lib_base.utils.dpToPx
+import com.cxj.lib_base.utils.onClick
+import com.cxj.lib_common.model.TabSubInfo
+import com.cxj.lib_glide.setUrl
 
 class TabRVAdapter(val context: Context, data: MutableList<TabSubInfo?>) :
     BaseBindingRVAdapter<TabSubInfo, ItemTabRecyclerViewBinding>(data) {

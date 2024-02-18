@@ -3,12 +3,12 @@
  */
 package com.cxj.jetandroid.repository
 
-import com.cxj.jetandroid.model.Banner
-import com.cxj.jetandroid.model.TabInfo
-import com.cxj.jetandroid.model.TabSubDataList
-import com.cxj.jetandroid.network.ApiManager
+import com.cxj.lib_common.model.Banner
+import com.cxj.lib_common.model.TabInfo
+import com.cxj.lib_network.base.BaseRepository
+import com.cxj.lib_network.manager.ApiManager
 
-class HomeRepository:BaseRepository() {
+class HomeRepository: BaseRepository() {
 
     suspend fun getHomeBanner():MutableList<Banner?>?{
         return sendRequest {

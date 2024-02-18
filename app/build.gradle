@@ -113,6 +113,7 @@ dependencies {
 
     implementation project(path: ':lib_start')
     implementation project(path: ':lib_base')
-
-
+    implementation project(path: ':lib_network')
+    implementation project(path: ':lib_common')
+    implementation project(path: ':lib_glide')
 }

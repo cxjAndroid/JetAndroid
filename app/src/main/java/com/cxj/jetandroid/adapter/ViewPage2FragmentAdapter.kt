@@ -12,7 +12,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 class ViewPage2FragmentAdapter(
     fragmentManager: FragmentManager,
     lifecycle: Lifecycle,
-    var fragments: MutableList<Fragment>
+    private var fragments: MutableList<Fragment>
 ) :
     FragmentStateAdapter(fragmentManager, lifecycle) {
     /**class ViewPage2FragmentAdapter(activity: FragmentActivity, var fragments: SparseArray<Fragment>) :

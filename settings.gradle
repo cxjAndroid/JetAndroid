@@ -19,3 +19,6 @@ rootProject.name = "JetAndroid"
 include ':app'
 include ':lib_start'
 include ':lib_base'
+include ':lib_network'
+include ':lib_common'
+include ':lib_glide'

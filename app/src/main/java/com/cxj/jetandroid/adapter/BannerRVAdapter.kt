@@ -5,11 +5,11 @@ package com.cxj.jetandroid.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.cxj.jetandroid.base.BaseBindingViewHolder
-import com.cxj.jetandroid.base.BaseBindingRVAdapter
+import com.cxj.lib_base.base.BaseBindingRVAdapter
+import com.cxj.lib_base.base.BaseBindingViewHolder
 import com.cxj.jetandroid.databinding.ImageBannerBinding
-import com.cxj.jetandroid.model.Banner
-import com.cxj.jetandroid.utils.setUrl
+import com.cxj.lib_common.model.Banner
+import com.cxj.lib_glide.setUrl
 
 class BannerRVAdapter(data: MutableList<Banner?>) :
     BaseBindingRVAdapter<Banner?, ImageBannerBinding>(data) {

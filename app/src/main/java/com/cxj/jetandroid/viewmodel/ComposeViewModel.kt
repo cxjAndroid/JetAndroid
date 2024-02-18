@@ -5,11 +5,12 @@ package com.cxj.jetandroid.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.cxj.jetandroid.model.SystemInfo
 import com.cxj.jetandroid.repository.SystemRepository
+import com.cxj.lib_common.model.SystemInfo
+import com.cxj.lib_network.base.BaseViewModel
 import kotlinx.coroutines.launch
 
-class ComposeViewModel:BaseViewModel() {
+class ComposeViewModel: BaseViewModel() {
 
     var systemLiveData:MutableLiveData<MutableList<SystemInfo?>?> = MutableLiveData()
 

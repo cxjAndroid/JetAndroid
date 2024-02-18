@@ -7,11 +7,11 @@ import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.cxj.jetandroid.adapter.TabRVAdapter
-import com.cxj.jetandroid.base.BaseMvvmFragment
+import com.cxj.lib_base.base.BaseMvvmFragment
 import com.cxj.jetandroid.databinding.FragmentTabBinding
-import com.cxj.jetandroid.decoration.StaggeredItemDecoration
-import com.cxj.jetandroid.utils.dpToPx
+import com.cxj.lib_common.decoration.StaggeredItemDecoration
 import com.cxj.jetandroid.viewmodel.TabFragmentViewModel
+import com.cxj.lib_base.utils.dpToPx
 
 class TabFragment : BaseMvvmFragment<FragmentTabBinding, TabFragmentViewModel>() {
 

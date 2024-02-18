@@ -6,7 +6,7 @@ package com.cxj.jetandroid.ui
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
-import com.cxj.jetandroid.base.BaseMvvmFragment
+import com.cxj.lib_base.base.BaseMvvmFragment
 import com.cxj.jetandroid.databinding.FragmentMineBinding
 import com.cxj.jetandroid.viewmodel.HomeFragmentViewModel
 import com.tencent.smtt.export.external.interfaces.SslError

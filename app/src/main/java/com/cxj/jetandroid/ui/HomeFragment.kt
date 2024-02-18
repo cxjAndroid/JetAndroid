@@ -9,11 +9,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.cxj.jetandroid.adapter.BannerRVAdapter
 import com.cxj.jetandroid.adapter.ViewPage2FragmentAdapter
-import com.cxj.jetandroid.base.BaseMvvmFragment
+import com.cxj.lib_base.base.BaseMvvmFragment
 import com.cxj.jetandroid.databinding.FragmentMainBinding
 import com.cxj.jetandroid.databinding.TabItemBinding
-import com.cxj.jetandroid.model.TabInfo
 import com.cxj.jetandroid.viewmodel.HomeFragmentViewModel
+import com.cxj.lib_common.model.TabInfo
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

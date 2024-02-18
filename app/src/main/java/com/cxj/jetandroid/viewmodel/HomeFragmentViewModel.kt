@@ -6,9 +6,10 @@ package com.cxj.jetandroid.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.liveData
-import com.cxj.jetandroid.model.Banner
-import com.cxj.jetandroid.model.TabInfo
 import com.cxj.jetandroid.repository.HomeRepository
+import com.cxj.lib_common.model.Banner
+import com.cxj.lib_common.model.TabInfo
+import com.cxj.lib_network.base.BaseViewModel
 
 class HomeFragmentViewModel : BaseViewModel() {
     private val homeRepository = HomeRepository()
